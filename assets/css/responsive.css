@@ -1,0 +1,731 @@
+/*================ Normal desktop :992px.==================== */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+	.about-counter {
+		margin-top: 30px
+	}
+	.single-about-counter {
+		margin-top: 0
+	}
+	.single-about-counter p {
+		font-size: 13px
+	}
+	.single-about-counter h3 {
+		font-size: 27px
+	}
+    .briffs-mission-area{
+        padding-bottom: 70px
+    }
+}
+
+
+/*================ Tablet desktop :768px.==================*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.mainmenu {
+		display: none
+	}
+	.main-search {
+		display: none
+	}
+	.briffs-responsive-menu {
+		display: block
+	}
+	.briff-logo::before {
+		height: 102%;
+		right: 60%
+	}
+	.slicknav_btn {
+		margin-top: 3px
+	}
+	.slider-text h2 {
+		font-size: 43px
+	}
+	.briffs-main-slide {
+		height: 420px
+	}
+	.briffs-slide .owl-nav {
+		width: 20%;
+		right: 50px
+	}
+	.promo-heading h4 {
+		font-size: 16px;
+	}
+	.promo-heading h3 {
+		font-size: 28px
+	}
+	.promo-box-item li {
+		padding: 15px;
+		flex: 0 0 45%
+	}
+	.promo-icon img {
+		width: 40px
+	}
+	.promo-count h3 {
+		font-size: 24px
+	}
+	.site-heading h4 {
+		font-size: 16px
+	}
+	.site-heading h3 {
+		font-size: 28px
+	}
+	.service-icon {
+		display: none
+	}
+	.service-info {
+		margin-left: 0
+	}
+	.single-service-text {
+		padding: 10px
+	}
+	.service-info h3 {
+		font-size: 18px;
+		margin-bottom: 5px
+	}
+	.single-choose-slider h2 {
+		font-size: 20px;
+		line-height: 30px
+	}
+	.hover-effect-content h4 {
+		display: none
+	}
+	.project-single-item:hover .project-hover {
+		left: 0
+	}
+	.briffs-project-area {
+		padding-bottom: 70px
+	}
+	.hire-box::before {
+		display: none
+	}
+	.hire-content-text h4 {
+		font-size: 28px;
+		line-height: 40px
+	}
+	.hire-box .hire-box-inner::before {
+		display: none
+	}
+	.hire-box .hire-box-inner::after {
+		display: none
+	}
+	.ac-buttons {
+		display: block !important;
+		text-align: left;
+		margin-top: 15px
+	}
+	.request-image {
+		display: none
+	}
+	.briffs-request-area {
+		padding-bottom: 70px
+	}
+	.blog-text-right {
+		margin-top: 20px;
+		text-align: left
+	}
+	.footer-post-image {
+		display: none
+	}
+	.copyright-left {
+		text-align: center
+	}
+	.copyright-social {
+		display: none
+	}
+	.briffs-breadcromb-area {
+		padding: 50px 0
+	}
+	.breadcromb-box h2 {
+		font-size: 36px
+	}
+	.about-page-right h3 {
+		font-size: 28px;
+		line-height: 36px
+	}
+	.about-counter {
+		display: none
+	}
+	.about-promo-box h3 {
+		font-size: 30px;
+		line-height: 42px
+	}
+	.briffs-about-promo {
+		padding: 50px 0
+	}
+	.about-promo-box a.briffs-btn {
+		margin-top: 10px
+	}
+	.briffs-mission-area {
+		padding-bottom: 70px
+	}
+	.project-details-action {
+		text-align: left
+	}
+	.project-details-body h3 {
+		font-size: 25px
+	}
+	.project-details-right {
+		margin-top: 50px
+	}
+	.pricing-title h3 {
+		font-size: 16px
+	}
+	.pricing-price h3 {
+		font-size: 30px
+	}
+	.briffs-faqs-right>form {
+		padding: 30px
+	}
+	.blog-page-right {
+		margin-top: 50px
+	}
+	.blog-details h3 {
+		font-size: 28px
+	}
+	.contact-box-left {
+		margin-top: 50px
+	}
+}
+
+
+/*================== small mobile :320px. ===================*/
+
+@media (max-width: 767px) {
+	.header-top-social {
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	.header-top-action ul {
+		text-align: center
+	}
+	.mainmenu {
+		display: none
+	}
+	.main-search {
+		display: none
+	}
+	.briffs-responsive-menu {
+		display: block
+	}
+	.briff-logo img {
+		width: 45%;
+	}
+	.briff-logo::before {
+		height: 104%;
+		right: 140px
+	}
+	.slider-text h2 {
+		font-size: 30px
+	}
+	.briffs-main-slide {
+		height: 340px
+	}
+	.briffs-slide .owl-nav {
+		bottom: 10px;
+		right: 5%;
+		width: 30%;
+	}
+	.promo-image {
+		margin: 0;
+		overflow: hidden
+	}
+	.promo-text {
+		margin-top: 50px
+	}
+	.promo-heading h4,
+	.site-heading h4 {
+		font-size: 15px
+	}
+	.promo-heading h3,
+	.site-heading h3 {
+		font-size: 26px
+	}
+	.site-heading {
+		margin-bottom: 15px
+	}
+	.promo-box-item {
+		margin-top: 30px
+	}
+	.promo-box-item li {
+		max-width: 100%;
+		flex: 0 0 100%;
+		margin: 30px 0px 0px 0px
+	}
+	.service-icon {
+		width: 40%;
+		font-size: 22px;
+		padding: 20px 0
+	}
+	.choose-right-overlay::after {
+		display: none
+	}
+	.choose-slide .owl-stage-outer::before {
+		display: none
+	}
+	.choose-slide .owl-stage-outer::after {
+		display: none
+	}
+	.single-choose-slider h2 {
+		font-size: 22px
+	}
+	.choose-left {
+		display: none
+	}
+	.briffs-service-area {
+		padding-bottom: 70px
+	}
+	.choose-right-overlay {
+		padding-bottom: 90px
+	}
+	.briffs-project-area {
+		padding-top: 70px;
+		padding-bottom: 70px
+	}
+	.project-btn>a {
+		display: block
+	}
+	.element-item {
+		width: 100%
+	}
+	.hire-box .hire-box-inner::after {
+		display: none
+	}
+	.hire-box::before {
+		display: none
+	}
+	.hire-box .hire-box-inner {
+		padding: 0
+	}
+	.hire-content-text h4 {
+		font-size: 26px;
+		line-height: 36px
+	}
+	.ac-buttons {
+		display: block !important;
+		margin-top: 20px
+	}
+	.briffs-promo-area::after {
+		display: none
+	}
+	.request-image {
+		display: none
+	}
+	.briffs-request-area {
+		padding-bottom: 70px
+	}
+	.blog-text-right {
+		text-align: left;
+		margin-top: 10px;
+	}
+	.newsletter-logo {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.newsletter-form form {
+		width: 100%
+	}
+	.single-footer {
+		margin: 20px 0
+	}
+	.copyright-left {
+		text-align: center
+	}
+	.copyright-social {
+		display: none
+	}
+	.promo-image::before {
+		display: none
+	}
+	.briffs-breadcromb-area {
+		padding: 50px 0
+	}
+	.breadcromb-box h2 {
+		font-size: 30px;
+		margin-bottom: 15px
+	}
+	.about-page-right h3 {
+		font-size: 26px;
+		line-height: 34px
+	}
+	.about-page-right {
+		margin-top: 30px
+	}
+	.briffs-about-page::after {
+		display: none
+	}
+	.about-page-right h3 {
+		margin-bottom: 15px
+	}
+	.about-counter {
+		margin-top: 30px
+	}
+	.about-promo-box {
+		width: 100%;
+		margin: 0
+	}
+	.about-promo-box h3 {
+		font-size: 26px;
+		line-height: 34px
+	}
+	.briffs-about-promo {
+		padding: 70px 0
+	}
+	.about-promo-box a.briffs-btn {
+		margin-top: 10px
+	}
+	.mission-right {
+		margin-top: 30px
+	}
+	.briffs-mission-area {
+		padding-bottom: 70px
+	}
+	.single-team-slider {
+		margin-top: 30px
+	}
+	.service-details-right {
+		margin-top: 30px
+	}
+	.project-details-body h3 {
+		font-size: 26px
+	}
+	.project-details-right {
+		margin-top: 30px
+	}
+	.project-details-widget {
+		padding: 10px
+	}
+	.briffs-team-page-area .single-team-slider {
+		margin-top: 0
+	}
+	.pricing-title h3 {
+		font-size: 17px
+	}
+	.pricing-price h3 {
+		font-size: 36px
+	}
+	.briffs-team-area .site-heading {
+		margin-bottom: 15px
+	}
+	.briffs-faqs-right.left-margin {
+		margin-top: 30px
+	}
+	.briffs-faqs-right>form {
+		padding: 30px
+	}
+	.blog-page-right {
+		margin-top: 50px
+	}
+	.blog-details h3 {
+		font-size: 24px;
+		line-height: 34px
+	}
+	.post-date {
+		display: none
+	}
+	.blog-content p span {
+		font-size: 18px
+	}
+	.blog-content-text {
+		margin-top: 30px
+	}
+	.post-share-right {
+		text-align: center
+	}
+	.post-share-left {
+		text-align: center;
+		margin-bottom: 10px
+	}
+	.comment-info h4 {
+		font-size: 16px
+	}
+	.single-comment-box.reply-comment {
+		padding-left: 30px
+	}
+	.briffs-leave-comment input[type="text"],
+	.briffs-leave-comment input[type="email"] {
+		width: 100%
+	}
+	.briffs-leave-comment textarea {
+		width: 100%
+	}
+	.contact-box-left {
+		margin-top: 30px
+	}
+	.support-box {
+		padding: 25px
+	}
+	.support-text h3 {
+		font-size: 20px
+	}
+}
+
+
+/* ======================Large Mobile :480px.================== */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.header-top-social {
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	.header-top-action ul {
+		text-align: center
+	}
+	.mainmenu {
+		display: none
+	}
+	.main-search {
+		display: none
+	}
+	.briffs-responsive-menu {
+		display: block
+	}
+	.briff-logo img {
+		width: 25%;
+	}
+	.briff-logo::before {
+		height: 104%;
+		right: 140px
+	}
+	.slider-text h2 {
+		font-size: 30px
+	}
+	.briffs-main-slide {
+		height: 340px
+	}
+	.briffs-slide .owl-nav {
+		bottom: 10px;
+		right: 5%;
+		width: 30%;
+	}
+	.promo-image {
+		margin: 0;
+		overflow: hidden
+	}
+	.promo-text {
+		margin-top: 50px
+	}
+	.promo-heading h4,
+	.site-heading h4 {
+		font-size: 15px
+	}
+	.promo-heading h3,
+	.site-heading h3 {
+		font-size: 26px
+	}
+	.site-heading {
+		margin-bottom: 15px
+	}
+	.promo-box-item {
+		margin-top: 30px
+	}
+	.promo-box-item li {
+		max-width: 100%;
+		flex: 0 0 100%;
+		margin: 30px 0px 0px 0px
+	}
+	.service-icon {
+		width: 35%;
+		font-size: 22px;
+		padding: 20px 0
+	}
+	.choose-right-overlay::after {
+		display: none
+	}
+	.choose-slide .owl-stage-outer::before {
+		display: none
+	}
+	.choose-slide .owl-stage-outer::after {
+		display: none
+	}
+	.single-choose-slider h2 {
+		font-size: 22px
+	}
+	.choose-left {
+		display: none
+	}
+	.briffs-service-area {
+		padding-bottom: 70px
+	}
+	.choose-right-overlay {
+		padding-bottom: 90px
+	}
+	.briffs-project-area {
+		padding-top: 70px;
+		padding-bottom: 70px
+	}
+	.project-btn>a {
+		display: block
+	}
+	.element-item {
+		width: 100%
+	}
+	.hire-box .hire-box-inner::after {
+		display: none
+	}
+	.hire-box::before {
+		display: none
+	}
+	.hire-box .hire-box-inner {
+		padding: 0
+	}
+	.hire-content-text h4 {
+		font-size: 26px;
+		line-height: 36px
+	}
+	.ac-buttons {
+		display: block !important;
+		margin-top: 20px
+	}
+	.briffs-promo-area::after {
+		display: none
+	}
+	.request-image {
+		display: none
+	}
+	.briffs-request-area {
+		padding-bottom: 70px
+	}
+	.blog-text-right {
+		text-align: left;
+		margin-top: 10px;
+	}
+	.newsletter-logo {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.newsletter-form form {
+		width: 100%
+	}
+	.single-footer {
+		margin: 20px 0
+	}
+	.copyright-left {
+		text-align: center
+	}
+	.copyright-social {
+		display: none
+	}
+	.promo-image::before {
+		display: none
+	}
+	.briffs-breadcromb-area {
+		padding: 50px 0
+	}
+	.breadcromb-box h2 {
+		font-size: 30px;
+		margin-bottom: 15px
+	}
+	.about-page-right h3 {
+		font-size: 26px;
+		line-height: 34px
+	}
+	.about-page-right {
+		margin-top: 30px
+	}
+	.briffs-about-page::after {
+		display: none
+	}
+	.about-page-right h3 {
+		margin-bottom: 15px
+	}
+	.about-counter {
+		margin-top: 30px
+	}
+	.about-promo-box {
+		width: 100%;
+		margin: 0
+	}
+	.about-promo-box h3 {
+		font-size: 26px;
+		line-height: 34px
+	}
+	.briffs-about-promo {
+		padding: 70px 0
+	}
+	.about-promo-box a.briffs-btn {
+		margin-top: 10px
+	}
+	.mission-right {
+		margin-top: 30px
+	}
+	.briffs-mission-area {
+		padding-bottom: 70px
+	}
+	.single-team-slider {
+		margin-top: 30px
+	}
+	.service-details-right {
+		margin-top: 30px
+	}
+	.project-details-body h3 {
+		font-size: 26px
+	}
+	.project-details-right {
+		margin-top: 30px
+	}
+	.project-details-widget {
+		padding: 10px
+	}
+	.briffs-team-page-area .single-team-slider {
+		margin-top: 0
+	}
+	.pricing-title h3 {
+		font-size: 17px
+	}
+	.pricing-price h3 {
+		font-size: 36px
+	}
+	.briffs-faqs-right.left-margin {
+		margin-top: 30px
+	}
+	.briffs-faqs-right>form {
+		padding: 30px
+	}
+	.blog-page-right {
+		margin-top: 50px
+	}
+	.blog-details h3 {
+		font-size: 24px;
+		line-height: 34px
+	}
+	.post-date {
+		display: none
+	}
+	.blog-content p span {
+		font-size: 18px
+	}
+	.blog-content-text {
+		margin-top: 30px
+	}
+	.post-share-right {
+		text-align: center
+	}
+	.post-share-left {
+		text-align: center;
+		margin-bottom: 10px
+	}
+	.comment-info h4 {
+		font-size: 16px
+	}
+	.single-comment-box.reply-comment {
+		padding-left: 30px
+	}
+	.briffs-leave-comment input[type="text"],
+	.briffs-leave-comment input[type="email"] {
+		width: 100%
+	}
+	.briffs-leave-comment textarea {
+		width: 100%
+	}
+	.contact-box-left {
+		margin-top: 30px
+	}
+	.support-box {
+		padding: 25px
+	}
+	.support-text h3 {
+		font-size: 20px
+	}
+}
+
