@@ -1,4 +1,5 @@
 /* Default Theme Color : #4b6b90 */
+/* Default Theme Color : rgba(75, 107, 144,1) */
 
 /*================================================
 01 - IMPORTED CSS
@@ -388,6 +389,10 @@ BASIC INFO CONTAINER _ JAYDEEP_STONE_ART
   background: url(../img/contact-us-breadcumb.jpg) no-repeat fixed 0 0;
 }
 
+.projects-breadcumb {
+  background: url(../img/projects-breadcumb-background.jpg) no-repeat fixed 0 0;
+}
+
 .briffs-breadcromb-area:after {
   position: absolute;
   content: '';
@@ -477,13 +482,14 @@ BASIC INFO CONTAINER _ JAYDEEP_STONE_ART
 
 .btntoTop:before {
   color: #fff;
-  content: 'Go up';
+  content: '↑';
   display: inline-block;
   font: 16px 'FontAwesome';
   vertical-align: middle;
 }
 
 .btntoTop {
+  zoom: 1.3;
   background-color: #4b6b90;
   border: 2px solid #4b6b90;
   border-radius: 30px;
@@ -592,7 +598,7 @@ BASIC INFO CONTAINER _ JAYDEEP_STONE_ART
 }
 
 .briff-logo {
-  padding: 12px 0;
+  /* padding: 12px 0; */
 }
 
 .briff-logo:before {
@@ -3151,4 +3157,55 @@ BASIC INFO CONTAINER _ JAYDEEP_STONE_ART
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding: 0px 20px;
   font-size: 20px;
+}
+
+
+/* PROJECT SHOWCASE CONTAINER */
+.project-showcase-container {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.project-showcase-container h4 {
+  margin-bottom: 15px;
+}
+
+.project-showcase-container .card {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: -5px 10px rgba(75, 107, 144, 0.4);
+  -moz-box-shadow: -5px 10px rgba(75, 107, 144, 0.4);
+  -webkit-box-shadow: -5px 10px rgba(75, 107, 144, 0.4);
+  -khtml-box-shadow: -5px 10px rgba(75, 107, 144, 0.4);
+}
+
+.project-showcase-container .card .card-image {
+  height: 250px;
+  width: 350px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 25px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px #ccc;
+  -moz-box-shadow: 5px 5px 5px #ccc;
+  -webkit-box-shadow: 5px 5px 5px #ccc;
+  -khtml-box-shadow: 5px 5px 5px #ccc;
+}
+
+/* TEMPLE ARCHITECT CONTAINER CSS */
+.temple-architect-container {
+  text-align: justify;
+  margin-bottom: 0px;
+}
+
+
+/* CONTACT US PAGE MAP CONTAINER */
+.map-container {
+  display: flex;
+  justify-content: center;
+}
+
+.map-container iframe {
+  width: 300px;
+  height: 300px;
 }
