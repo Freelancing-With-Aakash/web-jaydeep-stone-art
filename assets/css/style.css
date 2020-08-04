@@ -1189,7 +1189,7 @@ BASIC INFO CONTAINER _ JAYDEEP_STONE_ART
 }
 
 .service-icon {
-  width: 60%;
+  width: 20%;
   text-align: center;
   font-size: 30px;
   padding: 28px 0;
@@ -1212,14 +1212,6 @@ BASIC INFO CONTAINER _ JAYDEEP_STONE_ART
   font-family: 'Montserrat', sans-serif;
   -webkit-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
-}
-
-.service-info p {
-  cursor: pointer;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 400px;
-  text-overflow: ellipsis;
 }
 
 .service-info h3:hover {
@@ -2683,6 +2675,10 @@ BASIC INFO CONTAINER _ JAYDEEP_STONE_ART
 
 .blog-social li.twt a {
   background: #1ea1f3 none repeat scroll 0 0;
+}
+
+.blog-social li.insta a {
+  background: #f2003c none repeat scroll 0 0;
 }
 
 .blog-social li.linkd a {
