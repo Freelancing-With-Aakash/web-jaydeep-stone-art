@@ -20,6 +20,9 @@ body {
   line-height: 26px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
 }
 
 html,
@@ -391,6 +394,22 @@ BASIC INFO CONTAINER _ JAYDEEP_STONE_ART
 
 .projects-breadcumb {
   background: url(../img/projects-breadcumb-background.jpg) no-repeat fixed 0 0;
+}
+
+.service-import-cnc-tools-breadcumb {
+  background: url(../img/import-cnc-tools-breadcumb.jpg) no-repeat fixed 0 0;
+}
+
+.service-marble-granite-dealer-breadcumb {
+  background: url(../img/marble-dealer-breadcumb.jpg) no-repeat fixed 0 0;
+}
+
+.service-temple-architecture-breadcumb {
+  background: url(../img/service-temple-architecture-breadcumb.jpg) no-repeat fixed 0 0;
+}
+
+.service-temple-construction-breadcumb {
+  background: url(../img/service-construction-breadcumb.jpg) no-repeat fixed 0 0;
 }
 
 .briffs-breadcromb-area:after {
@@ -3160,17 +3179,20 @@ BASIC INFO CONTAINER _ JAYDEEP_STONE_ART
 }
 
 
-/* PROJECT SHOWCASE CONTAINER */
-.project-showcase-container {
+/* PROJECT SHOWCASE CONTAINER & CNC PRODUCT SHOWCASE CONTAINER */
+.project-showcase-container,
+.cnc-product-showcase-container {
   margin-top: 20px;
   margin-bottom: 40px;
 }
 
-.project-showcase-container h4 {
+.project-showcase-container h4,
+.cnc-product-showcase-container h4 {
   margin-bottom: 15px;
 }
 
-.project-showcase-container .card {
+.project-showcase-container .card,
+.cnc-product-showcase-container .card {
   margin: 10px;
   border-radius: 10px;
   box-shadow: -5px 10px rgba(75, 107, 144, 0.4);
@@ -3179,7 +3201,8 @@ BASIC INFO CONTAINER _ JAYDEEP_STONE_ART
   -khtml-box-shadow: -5px 10px rgba(75, 107, 144, 0.4);
 }
 
-.project-showcase-container .card .card-image {
+.project-showcase-container .card .card-image,
+.cnc-product-showcase-container .card .card-image {
   height: 250px;
   width: 350px;
   margin-bottom: 10px;
@@ -3190,6 +3213,18 @@ BASIC INFO CONTAINER _ JAYDEEP_STONE_ART
   -moz-box-shadow: 5px 5px 5px #ccc;
   -webkit-box-shadow: 5px 5px 5px #ccc;
   -khtml-box-shadow: 5px 5px 5px #ccc;
+}
+
+.cnc-product-showcase-container .card .card-body .watermark-text {
+  opacity: 0.2;
+  position: absolute;
+  top: 150px;
+  transform: rotate(-35deg);
+  text-transform: uppercase;
+}
+
+.product-image {
+  height: 250px;
 }
 
 /* TEMPLE ARCHITECT CONTAINER CSS */
@@ -3209,3 +3244,58 @@ BASIC INFO CONTAINER _ JAYDEEP_STONE_ART
   width: 300px;
   height: 300px;
 }
+
+
+/* Services CSS START */
+
+/* Temple Architecture */
+.about-temple-architecture,
+.import-cnc-tools,
+.temple-construction,
+.about-temple-architecture .text-container,
+.import-cnc-tools .text-container,
+.temple-construction .text-container {
+  margin: 20px 0px;
+}
+
+.about-temple-architecture h3,
+.import-cnc-tools h3,
+.temple-construction h3 {
+  text-align: center;
+  padding: 10px 0px;
+  border-top: 0.1px solid #4b6b90;
+  border-bottom: 5px solid #4b6b90;
+}
+
+.img-responsive {
+  display: flex;
+  margin: 20px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-responsive img {
+  border-radius: 5px;
+  max-height: 650px;
+  border: .2px solid #4b6b90;
+}
+
+.about-temple-architecture .text-container p,
+.import-cnc-tools .text-container p,
+.temple-construction .team-container p {
+  text-align: justify;
+}
+
+.about-temple-architecture .text-container .main-text,
+.import-cnc-tools .text-container .main-text,
+.temple-construction .text-container .main-text {
+  color: #4b6b90;
+  font-weight: 700;
+}
+
+.imp-text {
+  color: red;
+  font-weight: 700;
+}
+
+/* Services CSS END */
