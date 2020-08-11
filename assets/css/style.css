@@ -3267,14 +3267,18 @@ BASIC INFO CONTAINER _ JAYDEEP_STONE_ART
   border-bottom: 5px solid #4b6b90;
 }
 
-.img-responsive {
+.about-temple-architecture .img-responsive,
+.import-cnc-tools .img-responsive,
+.temple-construction .img-responsive {
   display: flex;
   margin: 20px 0px;
   justify-content: center;
   align-items: center;
 }
 
-.img-responsive img {
+.about-temple-architecture .img-responsive img,
+.import-cnc-tools .img-responsive img,
+.temple-construction .img-responsive img {
   border-radius: 5px;
   max-height: 650px;
   border: .2px solid #4b6b90;
